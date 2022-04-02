@@ -38,12 +38,7 @@ public class twoString {
 
 
 
-        if(s1.substring(s1.length()-1).equals(s2.substring(0,1))){
-            String s3=s1.replace(s1.substring(s1.length()-1),"");
-            System.out.println(s3+s2);
-        }else{
-            System.out.println(s1+s2);
-        }
+
 
     }
 }
