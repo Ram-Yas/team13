@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class days {
 
-      /*
+      /*//emre
         Given an int  ,
             if the int is 1 print monday
             if the int is 2 print tuesday
@@ -37,7 +37,6 @@ public class days {
 
         }
     }
-}
 
 
 
