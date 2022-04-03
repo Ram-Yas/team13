@@ -40,7 +40,7 @@ public class getTotal {
 
 
     */
-    public static void main(String[] args) {
+    public static <Scanner, String> void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -53,6 +53,7 @@ public class getTotal {
         String num2 = elements[1];
 
         String num3 = elements[2];
+        String num4;
 
         //  code Start here don't change before this line
         //   use String num1 , num2 , num3
