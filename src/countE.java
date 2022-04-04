@@ -42,6 +42,17 @@ public class countE {
 
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String str=scan.nextLine();
+
+        int sayac=0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i)=='b'){
+                sayac++;
+            }
+        }
+        System.out.println("Girdiginiz metindeki 'b' karakteri adedi = " + sayac);
+
 
     }
 
