@@ -40,7 +40,7 @@ public class getTotal {
 
 
     */
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -53,12 +53,29 @@ public class getTotal {
         String num2 = elements[1];
 
         String num3 = elements[2];
+        String num4;
 
         //  code Start here don't change before this line
         //   use String num1 , num2 , num3
 
         // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
         // String num1,num2,num3 kullanın
+
+        num1=num1.replaceAll("\\D","");
+        num2=num2.replaceAll("\\D","");
+        num3=num3.replaceAll("\\D","");
+
+        int number1=Integer.parseInt(num1);
+        int number2=Integer.parseInt(num2);
+        int number3=Integer.parseInt(num3);
+
+        int total=number1+number2+number3;
+
+        if (total>0){
+            System.out.println(total);
+        }else if (total<0){
+            System.out.println("-1");
+        }
 
 
 
