@@ -39,6 +39,19 @@ public class age {
            istedigini yapabilirsin print yapın.
  */
     public static void main(String[] args) {
+        int age = 25; //burasi tam olmayabilir
+
+        if (age<=10 && age>0){
+            System.out.println(" facebook hesabi acmak icin cok gencsin");
+        } else if (age<=16){
+            System.out.println("ehliyet almak icin cok gencsin");
+        }else if (age<=18){
+            System.out.println("dovme yaptirmak icin cok gencsin");
+        }else if (age<=21){
+            System.out.println("alkol icmek icin cok gencsin");
+        }else if (age>21){
+            System.out.println("istedigini yapabilirsin");
+        }
 
 
 
