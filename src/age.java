@@ -41,7 +41,6 @@ public class age {
     public static void main(String[] args) {
         int age = 25; //burasi tam olmayabilir
 
-
         if (age<=10 && age>0){
             System.out.println(" facebook hesabi acmak icin cok gencsin");
         } else if (age<=16){
@@ -54,41 +53,6 @@ public class age {
             System.out.println("istedigini yapabilirsin");
         }
 
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
