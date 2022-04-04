@@ -40,7 +40,9 @@ public class getTotal {
 
 
     */
-    public static <Scanner, String> void main(String[] args) {
+     public static void main(String[] args) {
+
+
 
         Scanner scanner = new Scanner(System.in);
 
