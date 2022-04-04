@@ -2,39 +2,17 @@ import java.util.Scanner;
 
 public class twoString {
 
-    public static <String> void main(String[] args) {
-
-        /*
-            Given two string by using scanner class and add each other
-            if first word last letter is same with second word first letter then remove one of them.
-
-            Example: "abc", "cat" --> "abcat"
-                   "abc", "dog"  -->"abcdog"
-        */
-
-
-        /*
-        Scanner class kullanılarak verilen iki tane Stringi birbirlerine ekle .
-
-        Eger ilk kelimenin son harfi ikinci kelimenin ilk harfi ile aynı ise aynı olan harflerin birisini kaldırın
-
-       Örnek:      "abc", "cat" --> "abcat"
-                   "abc", "dog"  -->"abcdog"
-
-
-         */
+    public static void main(String[] args) {
         Scanner dp = new Scanner(System.in);
 
-        String  allElements = (String) dp.nextLine();
+        String  btnkelime = (String) dp.nextLine();
 
-        String[] elements = allElements.split(" ");
+        String[] liste = btnkelime.split(" ");
 
-        String s1 = elements[0];
+        String s1 = liste[0];
 
-        String s2 = elements[1];
+        String s2 = liste[1];
 
-        // code start here use s1 and s2 as words
-        // kodu burdan başlatın ve s1 ve s2 kelime olarak kullanın
 
 
 
@@ -45,12 +23,11 @@ public class twoString {
             System.out.println(s1+s2);
         }
 
-        // code start here use s1 and s2 as words
-        // kodu burdan başlatın ve s1 ve s2 kelime olarak kullanın
 
 
+    }
 
 
 
     }
-}
+
