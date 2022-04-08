@@ -9,7 +9,7 @@ public class RandomNum {
 
     create a random number between 0 to max
 
-    output should be int
+    output should be int  fdfdfd
 
      */
 
