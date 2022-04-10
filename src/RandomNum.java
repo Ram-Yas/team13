@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RandomNum {
+   //sayi
 
 
     /*
@@ -25,8 +26,10 @@ public class RandomNum {
 
 
   */
-    public static void main(String[] args) {
 
 
-    }
+ }
+
+
+
 }
