@@ -40,10 +40,10 @@ public class printEvenNumbers {
     print  0 2 4 6 8 10 12 14  olmalı
 
 
+*/
 
 
 
-     */
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -57,7 +57,7 @@ public class printEvenNumbers {
 //            System.out.print(i);
 //        }
 
-
+    String x;
     }
 
 }
