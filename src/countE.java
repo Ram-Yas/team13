@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class countE {
     /**
-     *  hi
-     *  merhaba
-     * @param args
+     *  merhaba arkadaslar.
      */
 
 /*    Determine and print the number of times
