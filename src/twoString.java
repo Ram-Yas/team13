@@ -33,7 +33,7 @@ public class twoString {
 
         String s2 = elements[1];
 
-        // code start here use s1 and s2 as words
+                                                                                                                                                                                                                                                                                                                                                                                                            // code start here use s1 and s2 as words
         // kodu burdan başlatın ve s1 ve s2 kelime olarak kullanın
 
 
