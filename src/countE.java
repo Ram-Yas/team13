@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class countE {
 
+    /**
+     *  merhaba arkadaslar.
+     */
+
+
 /*    Determine and print the number of times
       the character ‘b’ appears in the input entered by the user.
 
