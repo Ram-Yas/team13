@@ -3,7 +3,13 @@ import java.util.Scanner;
 
 public class days {
 
+
+    //degiskligigi kaydet
+
+      /*
+
       /*//emre
+
         Given an int  ,
             if the int is 1 print monday
             if the int is 2 print tuesday
