@@ -1,10 +1,15 @@
+
 import java.util.Scanner;
 
 public class days {
 
+
     //degiskligigi kaydet
 
       /*
+
+      /*//emre
+
         Given an int  ,
             if the int is 1 print monday
             if the int is 2 print tuesday
@@ -37,41 +42,34 @@ public class days {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
-        int day = scanner.nextInt();
-
-        //  code Start here don't change before this line
-        //  kodu burdan başlatın ve bu satırdan önceki kodlari degiştirmeyin
-
-        switch(day) {
+        System.out.println("lutfen 1'den 7 kadar bir rakam seciniz ");
+        int input=scanner.nextInt();
+        switch(input) {
             case 1:
-                System.out.println("monday");
-                break;
+                System.out.println("monday");break;
             case 2:
-                System.out.println("tuesday");
-                break;
+                System.out.println("tuesday");break;
             case 3:
-                System.out.println("wednesday");
-                break;
+                System.out.println("wednesday");break;
             case 4:
-                System.out.println("thursday");
-                break;
+                System.out.println("thursday");break;
             case 5:
-                System.out.println("friday");
-                break;
+                System.out.println("friday");break;
             case 6:
-                System.out.println("saturday");
-                break;
+                System.out.println("saturday");break;
             case 7:
-                System.out.println("sunday");
-                break;
-
-
+                System.out.println("sunday");break;
             default:
                 System.out.println("this is not a valid day");
+
         }
+
+
+
+
+
+
     }
-}
 
 
 
