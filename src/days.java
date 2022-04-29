@@ -8,7 +8,7 @@ public class days {
 
       /*
 
-      /*//emre
+      /*///emre
 
         Given an int  ,
             if the int is 1 print monday
